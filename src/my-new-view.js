@@ -3,6 +3,7 @@ import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 /* Load shared styles. All view elements use these styles */
 import './shared-styles.js';
 import '@polymer/iron-image/iron-image.js';
+import '@polymer/iron-ajax/iron-ajax.js';
 
 /* Extend the base PolymerElement class */
 class MyNewView extends PolymerElement {
