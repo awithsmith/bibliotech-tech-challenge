@@ -17,10 +17,17 @@ class MyNewView extends PolymerElement {
        last-response = "{{ajaxResponse}}">
     </iron-ajax>
 
-    <div>
-      <h1>{{ajaxResponse.title}}</h1>
-      <iron-image src="https://d1re4mvb3lawey.cloudfront.net/pg1017/cover.jpg"></iron-image>
-    </div>
+    <table style="width:100%">
+  <tr>
+    <th>Cover Image</th>
+    <th>Title</th>
+    <th>Contributors</th>
+  </tr>
+  <tr>
+    <td><iron-image src="https://d1re4mvb3lawey.cloudfront.net/pg1017/cover.jpg"></iron-image></td>
+    <td>{{ajaxResponse.title}}</td>
+    <td>{{ajaxResponse.contributors}}</td>
+  </tr>
       `;
     }
   }
