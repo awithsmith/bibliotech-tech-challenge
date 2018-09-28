@@ -10,9 +10,9 @@ class MyNewView extends PolymerElement {
   /* Define a template for the new element */
   static get template() {
     return html`
-    <div class="card">
-           <iron-image src="https://d1re4mvb3lawey.cloudfront.net/pg1017/cover.jpg"></iron-image>
-         </div>
+    <div>
+      <iron-image src="https://d1re4mvb3lawey.cloudfront.net/pg1017/cover.jpg"></iron-image>
+    </div>
       `;
     }
   }
