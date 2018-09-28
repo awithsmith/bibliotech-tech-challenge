@@ -17,6 +17,7 @@
     "@polymer/app-route": "^3.0.0-pre.15",
     "@polymer/iron-flex-layout": "^3.0.0-pre.15",
     "@polymer/iron-iconset-svg": "^3.0.0-pre.15",
+    "@polymer/iron-image": "^3.0.1",
     "@polymer/iron-media-query": "^3.0.0-pre.15",
     "@polymer/iron-pages": "^3.0.0-pre.15",
     "@polymer/iron-selector": "^3.0.0-pre.15",
@@ -25,8 +26,8 @@
     "@webcomponents/webcomponentsjs": "^2.0.0"
   },
   "devDependencies": {
-    "polymer-cli": "^1.7.1",
-    "wct-browser-legacy": "^1.0.0"
+    "polymer-cli": "^1.8.0",
+    "wct-browser-legacy": "^1.0.1"
   },
   "engines": {
     "node": ">=8.0"
