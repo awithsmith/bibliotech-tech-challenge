@@ -10,7 +10,15 @@ class MyNewView extends PolymerElement {
   /* Define a template for the new element */
   static get template() {
     return html`
+    <iron-ajax
+       auto url = "https://d1re4mvb3lawey.cloudfront.net/pg1017/index.json"
+       handle-as = "json"
+       on-response = "handleResponse"
+       last-response = "{{ajaxResponse}}">
+    </iron-ajax>
+
     <div>
+      <h1>{{ajaxResponse.title}}</h1>
       <iron-image src="https://d1re4mvb3lawey.cloudfront.net/pg1017/cover.jpg"></iron-image>
     </div>
       `;
